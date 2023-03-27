@@ -1,0 +1,21 @@
+.container {
+    width: 700px;
+    margin: auto;
+    display: flex;
+
+}
+
+.logo {
+    border-right: black solid 1px;
+}
+
+.lista {
+    border-top: black solid 1px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container div {
+    padding: 20px;
+    box-sizing: border-box;
+}

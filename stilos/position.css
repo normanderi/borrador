@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(194, 194, 194);
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.sub {
+    background-color: beige;
+    padding: 30px;
+    border: burlywood solid 1px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    position: relative;
+    text-align: left;
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    z-index: 0;
+    font-size: 1.8rem;
+}
+
+.box:hover {
+    z-index: 1;
+}
+
+.uno {
+    top: 0;
+    left: 0;
+    background-color: rgb(162, 238, 238);
+    border: solid 3px blue;
+}
+
+.dos {
+    top: 0;
+    right: 0;
+    background-color: rgb(228, 166, 166);
+    border: solid 3px darkred;
+}
+
+.tres {
+    top: 25%;
+    left: 25%;
+    background-color: rgb(143, 214, 143);
+    border: solid 3px darkgreen;
+}
+
+.cuatro {
+    bottom: 0;
+    left: 0;
+    background-color: rgb(226, 226, 145);
+    border: solid 3px darkgoldenrod;
+}
+
+.cinco {
+    bottom: 0;
+    right: 0;
+    background-color: rgb(182, 120, 120);
+    border: solid 3px darkorange;
+}

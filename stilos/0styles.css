@@ -1,0 +1,28 @@
+h1 {
+    margin-bottom: 50px;
+}
+
+
+
+li {
+    display: inline;
+    padding: 20px;
+    background: url(../fotos/indiana.png), linear-gradient(90deg, rgba(253, 29, 29, 1) 7%, rgba(58, 153, 180, 1) 47%, rgba(88, 252, 69, 1) 82%);
+    border-radius: 20%;
+    transition: 1s;
+    margin: 10px;
+    border: solid black 2px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+li:hover {
+    transition: 1.5s;
+    background-position: center;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}

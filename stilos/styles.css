@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background-color: rgb(182, 178, 178);
+    margin: 0;
+}
+
+h1 {
+    text-align: right;
+    background-color: black;
+    color: white;
+    margin-bottom: 100px;
+    padding-right: 15px;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+.container div {
+    border-bottom: solid black 5px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    border-bottom: solid white 3px;
+    font-size: 2rem;
+}
+
+.fecha {
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+    font-size: 2rem;
+}
+
+.text {
+    font-size: 1.5rem;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.mencion {
+    font-style: italic;
+    text-decoration: underline dashed red 1px;
+}
+
+.lugares {
+    color: blue;
+}
+
+.cargos {
+    background-color: white;
+    color: red;
+}

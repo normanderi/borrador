@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+img {
+    animation: rota 0.5s infinite linear;
+}
+
+@keyframes rota {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

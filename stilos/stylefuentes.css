@@ -1,0 +1,17 @@
+div {
+    margin: auto;
+    width: 200px;
+    height: 300px;
+}
+
+p {
+    font-size: 10rem;
+    transition: 10s;
+    text-shadow: 150px 70px 50px red, -150px -70px 50px blue, -150px 70px 50px green, 150px -70px 50px yellow;
+}
+
+p:hover {
+    font-size: 10rem;
+    transition: 2s;
+    text-shadow: -150px -70px 3px red, 150px 70px 3px blue, 150px -70px 3px green, -150px 70px 3px yellow;
+}

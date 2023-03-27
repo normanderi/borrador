@@ -1,0 +1,49 @@
+body {
+    background-color: olive;
+}
+
+.container {
+    margin: auto;
+    width: 1000px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+.titulo p {
+    font-size: 2rem;
+}
+
+.novella img {
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    background-color: darkgreen;
+    color: white;
+    font-size: 3rem;
+    padding-left: 280px;
+}
+
+.text p {
+    font-size: 2rem;
+}
+
+.fiore img {
+    float: left;
+
+}
+
+.croce img {
+    float: right;
+}
+
+span {
+    font-weight: bold;
+}

@@ -1,0 +1,29 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(194, 187, 187);
+}
+
+.container {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    width: 15%;
+    height: 200px;
+    background-color: rgb(190, 133, 133);
+    border: dashed rgb(63, 37, 37) 2px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+p:first-letter {
+    font-size: 2rem;
+    text-transform: uppercase;
+}

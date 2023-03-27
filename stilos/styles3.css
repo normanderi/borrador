@@ -1,0 +1,49 @@
+.titulo h1 {
+    background-color: gray;
+    margin: 0%;
+}
+
+.titulo h2 {
+    background-color: rgb(212, 210, 210);
+    margin-top: 0%;
+    text-align: right;
+    border-bottom: dashed black 3px;
+}
+
+.graella {
+    display: flex;
+    width: 50%;
+}
+
+.graella>div {
+    border-bottom: solid black 1px;
+    border-left: dashed grey 2px;
+    border-right: dashed grey 2px;
+    margin: 2px;
+    border-top: solid black 1px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.graella h3 {
+    background-color: rgb(201, 199, 199);
+    margin-top: 0%;
+    text-align: center;
+}
+
+.graella p {
+    box-sizing: border-box;
+    padding: 10px;
+    border: solid black 1px;
+    margin-top: 0;
+    border-top: 0;
+}
+
+.graella h4 {
+    text-align: right;
+    background-color: rgb(218, 215, 215);
+    margin-bottom: 0%;
+    border-top: solid black 1px;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+}

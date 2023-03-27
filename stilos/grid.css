@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    width: 1080px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    width: 100px;
+    margin: auto;
+}

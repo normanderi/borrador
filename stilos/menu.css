@@ -1,0 +1,73 @@
+a {
+    text-decoration: none;
+    padding: 20px;
+    border: solid 5px black;
+    background-color: yellowgreen;
+    width: 70px;
+    border-radius: 20px;
+    display: block;
+}
+
+.lista {
+    display: flex;
+}
+
+.malpario ul {
+    padding: 10px;
+    opacity: 0;
+    overflow: hidden;
+    max-height: 0px;
+}
+
+.malpario:hover ul {
+    opacity: 1;
+    max-height: 800px;
+    transition: 1s;
+}
+
+li:hover a {
+    background-color: brown;
+    color: white;
+}
+
+.malpario li {
+    display: block
+}
+
+.malpario ul a {
+    text-decoration: none;
+    padding: 10px;
+    border: solid 5px blue;
+    background-color: red;
+    width: 70px;
+    border-radius: 20px;
+}
+
+.malpario ul a:hover {
+    background-color: chartreuse;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+a:hover {
+    background-color: brown;
+    color: white;
+}
+
+li.malpario a:after {
+    font-family: flechita;
+    color: aqua;
+    content: "z";
+}
+
+@font-face {
+    font-family: flechita;
+    src: url(../fuentes/Arrows_tfb.ttf);
+}

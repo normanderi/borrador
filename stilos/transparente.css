@@ -1,0 +1,21 @@
+div {
+    background-color: black;
+    width: 1240px;
+    height: 744px;
+    overflow: hidden;
+}
+
+div .cosas {
+    position: absolute;
+}
+
+p {
+    text-align: center;
+    color: azure;
+    font-size: 5rem;
+}
+
+div:hover .cosas {
+    opacity: 20%;
+    transition: 2s;
+}

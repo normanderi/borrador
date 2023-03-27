@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+}
+
+.lista {
+    width: 200px;
+    position: relative;
+    height: 200px;
+}
+
+li {
+    background-color: olivedrab;
+    list-style: none;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    width: 100px;
+}
+
+li:hover {
+    width: 200px;
+    transition: 1s;
+}
+
+.uno {
+    top: 0;
+}
+
+.dos {
+    top: 20%;
+}
+
+.tres {
+    top: 40%;
+}
+
+.cuatro {
+    top: 60%;
+}
+
+.cinco {
+    top: 80%;
+}

@@ -1,0 +1,64 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    width: 965px;
+    margin: auto;
+    background-color: white;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li:first-of-type a {
+    background-color: brown;
+}
+
+li {
+    padding: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: brown;
+}
+
+h1 {
+    text-align: center;
+}
+
+.triple {
+    display: flex;
+}
+
+.triple div {
+    justify-content: space-between;
+    padding: 30px;
+}
+
+h2 {
+    color: brown;
+}
+
+.abajo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}

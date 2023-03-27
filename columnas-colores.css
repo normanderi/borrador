@@ -1,0 +1,44 @@
+.container {
+    background-color: darkmagenta;
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    display: flex;
+}
+
+.box {
+    height: 800px;
+    width: 150px;
+}
+
+.uno {
+    background-color: aqua;
+}
+
+.box2 {
+    width: 700px;
+    height: 800px;
+}
+
+.horiz {
+    width: 700px;
+    height: 150px;
+}
+
+.one {
+    background-color: chartreuse;
+}
+
+.cuadra {
+    width: 700px;
+    height: 500px;
+    background-color: teal;
+}
+
+.two {
+    background-color: green;
+}
+
+.tres {
+    background-color: darkred;
+}

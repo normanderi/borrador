@@ -1,0 +1,7 @@
+div {
+    background-image: url(../fotos/html-left.png), url(../fotos/html-right.png);
+    width: 500px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: left, right;
+}

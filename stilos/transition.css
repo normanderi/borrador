@@ -1,0 +1,18 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(circle, rgba(182, 79, 161, 1) 16%, rgba(99, 89, 224, 1) 19%, rgba(180, 79, 163, 1) 23%, rgba(146, 83, 188, 1) 26%, rgba(180, 79, 163, 1) 30%, rgba(63, 94, 251, 1) 33%, rgba(165, 81, 174, 1) 37%, rgba(233, 220, 14, 0.9948354341736695) 42%, rgba(178, 79, 164, 1) 46%, rgba(79, 79, 180, 1) 50%, rgba(188, 78, 157, 1) 54%, rgba(76, 203, 97, 1) 58%, rgba(197, 77, 150, 1) 61%, rgba(70, 248, 252, 1) 65%, rgba(182, 98, 162, 1) 69%);
+    font-size: 1rem;
+    transition-duration: 2s;
+}
+
+div:hover {
+    width: 600px;
+    height: 600px;
+    transition-timing-function: ease-in;
+    font-size: 10rem;
+    background-image: radial-gradient(circle, rgba(99, 89, 224, 1) 19%, rgba(180, 79, 163, 1) 30%, rgba(63, 94, 251, 1) 33%, rgba(233, 220, 14, 0.9948354341736695) 42%, rgba(79, 79, 180, 1) 50%, rgba(76, 203, 97, 1) 58%, rgba(197, 77, 150, 1) 61%, rgba(70, 248, 252, 1) 65%);
+    color: white;
+    transition-property: width, height, font-size, color;
+    transition-duration: 5s, 5s, 10s, 15s;
+}
